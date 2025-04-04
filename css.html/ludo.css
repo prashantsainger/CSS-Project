@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+.col1{
+    width: 600px;
+    height: 600px;
+    background-color:blueviolet;
+    margin:1.5% auto;
+    }
+    .col2{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    .col3{
+        width: 100px;
+        height: 100px;
+        background-color:yellow;
+    }
+    .col4{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+    .col5{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+    .fl{
+        /* float: left; */
+    }
+    .fr{
+        /* float: right; */
+    }
+    .dn-fl{
+    
+        top: 80%;
+    
+    }
+    .dn-fr{
+        float: right;
+        top: 90%;
+    }

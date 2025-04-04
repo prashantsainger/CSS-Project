@@ -1,0 +1,20 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="textstyle.css">@font-face {
+    font-family: ducat;
+    src: url(style1.css);
+}
+
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    word-spacing: -5px;
+    letter-spacing: +5px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: ducat;
+    text-shadow: 2px 2px 2px red, 4px 4px 2px burlywood;
+}

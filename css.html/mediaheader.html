@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .head {
+            padding: 2% 5%;
+            background-color: #404040;
+        }
+
+        #title {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            display: block;
+
+        }
+
+        .card-1 {
+            width: 24.25%;
+            height: 25vh;
+            background-color: royalblue;
+            float: left;
+        }
+
+        .card-2 {
+            width: 24.25%;
+            height: 25vh;
+            background-color: royalblue;
+            float: left;
+            margin-left: 1%;
+        }
+
+        .card-3 {
+            width: 24.25%;
+            height: 25vh;
+            background-color: royalblue;
+            float: left;
+            margin-left: 1%;
+        }
+
+        .card-4 {
+            width: 24.25%;
+            height: 25vh;
+            background-color: royalblue;
+            float: right;
+        }
+
+
+
+
+
+
+        /* media screen 1366px */
+
+        @media(max-width:1366px) {
+
+            .head {
+                background-color: tomato;
+            }
+        }
+
+        @media(max-width:1080px) {
+
+            .head {
+                background-color: gold;
+            }
+
+            #title {
+                text-align: right;
+            }
+
+            .card-1,
+            .card-2,
+            .card-3,
+            .card-4 {
+                width: 49.50%;
+                margin-bottom: 1vh;
+            }
+
+            .card-3 {
+                margin-left: 0%;
+            }
+
+
+
+
+
+        }
+
+        @media(max-width:720px) {
+
+            .head {
+                background-color: royalblue;
+            }
+
+            #title {
+                text-align: center;
+            }
+
+
+            .card-1,
+            .card-2,
+            .card-3,
+            .card-4 {
+                width: 100%;
+                float: none;
+                margin-left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <a href="#" id="title">Site Name</a>
+    </div>
+
+
+    <div class="card-1"></div>
+    <div class="card-2"></div>
+    <div class="card-3"></div>
+    <div class="card-4"></div>
+
+</body>
+
+</html>

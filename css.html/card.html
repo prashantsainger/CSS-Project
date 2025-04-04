@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting card</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .fl {
+            float: left;
+            margin-left: 5%;
+        }
+
+        .mid {
+            float: left;
+            margin-left: 7%;
+        }
+
+        .fr {
+            float: right;
+            margin-right: 5%;
+        }
+/* main cards size */
+        .card {
+            margin-top: 5%;
+            width: 25%;
+            height: 80vh;
+        }
+
+
+
+/* all css of card first */
+        .front-1 {
+            background-image: url(images/2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 5px;
+        }
+        .ez {
+            color: #38b6ff;
+            font-size: 40px;
+        }
+
+        .front-1 h1 {
+            font-weight: 400;
+            letter-spacing: -1px;
+            text-align-last: end;
+            padding-top: 10%;
+            padding-right: 2%;
+            color: rgb(53, 53, 53);
+        }
+
+        .front-1 h3 {
+            font-size: 15px;
+            font-weight: 100;
+            text-align: end;
+            padding-right: 2%;
+            padding-top: 5%;
+            color: #272726;
+        }
+
+        .back-1 {
+            background-image: url(images/1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            margin-top: 30%;
+            border-radius: 5px;
+        }
+
+        .back-1 h2 {
+            color: #38b6ff;
+            font-size: 100px;
+            font-weight: 200;
+            letter-spacing: -15px;
+            padding-left: 20%;
+            padding-top: 12%;
+        }
+
+        .back-1 p {
+            color: #272726;
+            font-size: 25px;
+            letter-spacing: 5px;
+            padding-left: 5%;
+            margin-top: -20px;
+
+        }
+        .back-1 h3 {
+            color: #272726;
+            text-align: center;
+            margin-top: 3%;
+            font-weight: 300;
+            font-size: 14px;
+            padding-right: 150px;
+        }
+
+/* ending of card css */
+
+/* all css of card second */
+
+        .front-2 {
+            background-image: url(images/3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 5px;
+        }
+
+        .front-2 h1 {
+            text-align: right;
+            padding-top: 8%;
+            padding-right: 1%;
+            font-weight: 500;
+
+        }
+        .Ez {
+            color: #efa038;
+            font-size: 50px;
+        }
+        .lz {
+            color: #dadada;
+        }
+        .front-2 h3 {
+
+            font-size: 15px;
+            font-weight: 100;
+            text-align: end;
+            padding-right: 2%;
+            padding-top: 4%;
+            color: #dadada;
+        }
+
+        .back-2 {
+            background-image: url(images/4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            margin-top: 30%;
+            border-radius: 5px;
+        }
+
+        .back-2 h2 {
+            color: #efa038;
+            font-size: 90px;
+            font-weight: 450;
+            text-align: center;
+            padding-top: 18%;
+            padding-left: 24%;
+        }
+
+        .back-2 h3 {
+            color: #dadada;
+            text-align: center;
+            margin-top: 3%;
+            font-weight: 250;
+            font-size: 12px;
+        }
+
+        .back-2 p {
+            color: #dadada;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 2%;
+            word-spacing: 45px;
+            margin-top: -20px;
+        }
+
+        .logo {
+            letter-spacing: 80px;
+
+        }
+/* ending of card second */
+
+
+
+/* all css of card third */
+        .front-3 {
+            background-image: url(images/5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 5px;
+        }
+
+        .front-3 h2 {
+            color: #00c2cb;
+            font-size: 90px;
+            font-weight: 500;
+            text-align: right;
+            margin-right: 10%;
+            margin-top: 10%;
+            letter-spacing: -15px;
+            text-shadow: 5px 5px 15px #00c2cb;
+        }
+
+        .front-3 h3 {
+            color: #00c2cb;
+            text-align: right;
+            margin-right: 2%;
+            margin-top: -2%;
+            font-weight: 250;
+            letter-spacing: 3px;
+            font-size: 15px;
+            text-shadow: 5px 5px 15px #00c2cb;
+        }
+
+        .front-3 h4 {
+            color: #303642;
+            text-align: left;
+            margin-left: 5px;
+            text-align: justify;
+            margin-top: -70px;
+            font-weight: 300;
+            line-height: 98px;
+        }
+
+        .back-3 {
+            background-image: url(images/6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40%;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+            margin-top: 30%;
+            border-radius: 5px;
+        }
+
+        .back-3 h2 {
+            color: #00c2cb;
+            font-size: 120px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 5%;
+            letter-spacing: -17px;
+        }
+
+        .back-3 h3 {
+            color: #303642;
+            text-align: center;
+            margin-top: -5%;
+            letter-spacing: 5px;
+            font-weight: 400;
+            font-size: 25px;
+        }
+.back-3 h4{
+    color:#303642;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+        
+    /* ending of card third */
+       
+
+      
+    </style>
+
+</head>
+
+<body>
+    <!-- Card 1 -->
+    <div class="card fl">
+        <div class="front-1">
+            <h1><span class="ez">E</span>lectronic <span class="ez">Z</span>one</h1>
+            <h3>+919528963007 <i class="ri-phone-fill"></i></h3>
+            <h3>khalilaftab50@gmail.com<i class="ri-mail-fill"></i></h3>
+            <h3>www.electroniczone.com <i class="ri-global-line"></i></h3>
+            <h3>sector 62 noida.<i class="ri-map-pin-fill"></i></h3>
+        </div>
+        <div class="back-1">
+            <h2>EZ</h2>
+            <p>Electronic Zone</p>
+            <h3>+919528963007 <i class="ri-phone-fill"></i></h3>
+            <h3>khalilaftab50@gmail.com<i class="ri-mail-fill"></i>
+                <i class="fa-solid fa-location-dot"></i></h3>
+
+        </div>
+    </div>
+    <!-- Card 1 -->
+
+
+<!-- 
+    
+    <div class="card mid">
+        <div class="front-2">
+            <h1><span class="Ez">E</span><span class="lz">lectronic</span> <span class="Ez">Z</span><span
+                    class="lz">one</span></h1>
+            <h3>+919528963007 <i class="ri-phone-fill"></i></h3>
+            <h3>khalilaftab50@gmail.com<i class="ri-mail-fill"></i></h3>
+            <h3>www.electroniczone.com <i class="ri-global-line"></i></h3>
+            <h3>sector 62 noida.<i class="ri-map-pin-fill"></i></h3>
+        </div>
+        <div class="back-2">
+            <h2><span class="logo">E</span><span class="logo">Z</span></h2>
+            <p>Electronic Zone</p>
+            <h3>+919528963007 <i class="ri-phone-fill"></i></h3>
+            <h3>khalilaftab50@gmail.com<i class="ri-mail-fill"></i></h3>
+        </div>
+    </div>
+    <!-- Card 2 -->
+
+
+
+    <!--  Card 3 -->
+    <div class="card fr">
+        <div class="front-3">
+            <h2>EZ</h2>
+            <h3>Electronic Zone</h3>
+            <h4><i class="ri-phone-fill"></i> +919528963007 </h4>
+            <h4><i class="ri-mail-fill"></i> Electzone@gmail.com</h4>
+            <h4><i class="ri-global-line"></i> www.Electzone.com </i></h4>
+            <h4><i class="ri-map-pin-fill"></i> sector 62 noida.</h4>
+        </div>
+        <div class="back-3">
+            <h2>EZ</h2>
+            <h3>Electronic Zone</h3>
+
+            <h4><i class="ri-phone-fill"></i> +919528963007 </h4>  <h4><i class="ri-mail-fill"></i> khalilaftab50@gmail.com</h4>
+            <h4><i class="ri-map-pin-fill"></i> sector 62 noida.</h4>
+
+        </div>
+    </div> -->
+
+</body>
+
+</html>

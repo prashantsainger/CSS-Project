@@ -1,0 +1,23 @@
+*{height: 100px;
+margin:0%;
+}
+
+
+
+    .col1{
+    width: 50%;}
+    .col2{
+    width: 33.33%;}
+    .col3{width: 25%;}
+    .col4{width: 20%;}
+
+    
+    .fl{float: left;}
+    .fr{float: right;}
+    
+    .bg1{background-color: brown;}
+    .bg2{background-color: chartreuse;}
+    .bg3{background-color: coral;}
+    .bg4{background-color: darkmagenta;}
+    .bg5{background-color: chocolate;}
+     .clr{clear:both; height: 0%;}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        .head{padding: 2% 5%;
+        background-color: brown;}
+        #tittle{text-transform: capitalize;
+            text-decoration: none;
+        font-size: 2rem;
+     color: beige;
+    display: block;}
+    .card-1{width: 19.2%;
+    height: 25vh;
+background-color: blueviolet;
+float: left;}
+.card-2{width: 19.2%;
+    height: 25vh;
+background-color:grey;
+float: left;
+margin-left: 1%;}
+.card-3{width: 19.2%;
+    height: 25vh;
+background-color: blue;
+float: left;
+margin-left: 1%;}
+.card-4{width:19.2%;
+    height: 25vh;
+background-color:brown;
+float: left;
+margin-left: 1%;}
+.card-5{width: 19.2%;
+    height: 25vh;
+background-color:darkgoldenrod;
+float: right;}
+@media(max-width:1366px) {
+    .head{background-color:darkgray;}
+    #tittle{text-align: center;}
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5{background-color: tomato;}
+    
+}
+@media(max-width:1080px) {
+    .card-1,
+    .card-2{width:49.5% ;
+        background-color:darkblue;
+    margin-bottom: 1vh;}
+    .card-3{width: 100%;
+    background-color: chartreuse;
+margin-left: 0%;
+margin-bottom: 1vh;}
+.card-4,
+    .card-5{width:49.5%;
+        background-color:brown;
+    margin-bottom: 1vh;}
+    .card-4{margin-left: 0%;}
+
+}
+@media(max-width:720px){
+    .head{background-color: crimson;}
+    #tittle{text-align: right;}
+    .card-1{width: 100%;
+    background-color:darkgray;}
+    /* .card-1{margin-left: 0%;} */
+    .card-2{width:32.66%;
+    background-color:darkorange;
+margin-bottom: 1vh;}
+    .card-3,
+    .card-4{width:32.66%;
+    background-color:darkorange;
+margin-bottom: 1vh;}
+    
+    .card-5{width: 100%;
+    background-color: darkslategray;}
+    
+    .card-2{margin-left: 0%;}
+.card-3{margin-inline: 1%;
+    background-color: black;
+
+}
+.card-4{float: right;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <a href="#" id="tittle">media</a>
+    </div>
+    <div class="card-1"></div>
+        <div class="card-2"></div>
+            <div class="card-3"></div>
+                <div class="card-4"></div>
+                <div class="card-5"></div>
+            
+</body>
+</html>

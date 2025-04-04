@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+}
+
+.clr {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.go {
+    float: left;
+    margin-left: 1%;
+}
+
+.vad {
+    margin-bottom: 8px;
+}
+
+.col1 {
+    height: 90px;
+}
+
+.col2 {
+    height: 300px;
+    width: 49.5%;
+}
+
+.col3 {
+    height: 75px;
+}
+
+.col4 {
+    height: 250px;
+}
+
+.col5 {
+    height: 80px;
+    width: 19.2%;
+}
+
+.col6 {
+    height: 350px;
+    width: 19.2%;
+}
+
+.col7 {
+    height: 350px;
+    width: 79.8%;
+}
+
+.col8 {
+    height: 46px;
+    width: 11.63%;
+}
+
+.col9 {
+    height: 46px;
+    width: 10.22%;
+}
+
+.col10 {
+    height: 46px;
+    width: 9.1%;
+}
+
+.col11 {
+    height: 46px;
+    width: 8.18%;
+}
+
+.col12 {
+    height: 46px;
+    width: 7.41%;
+}
+
+
+
+
+.bg1 {
+    background-color: brown;
+}
+
+.bg2 {
+    background-color: aqua;
+}
+
+.bg3 {
+    background-color: blueviolet;
+}
+
+.bg4 {
+    background-color: cadetblue;
+}
+
+.bg5 {
+    background-color: chartreuse;
+}
+
+.bg6 {
+    background-color: cornflowerblue;
+}
+
+.bg7 {
+    background-color: chocolate;
+}
+
+.bg8 {
+    background-color: crimson;
+}
+
+.bg9 {
+    background-color: darkgoldenrod;
+}
+
+.bg10 {
+    background-color: darkgreen;
+}
+
+.bg11 {
+    background-color: darkorange;
+}
+
+.bg12 {
+    background-color: forestgreen;
+}

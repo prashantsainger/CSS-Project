@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+}
+
+.clr {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.go {
+    float: left;
+    margin-left: 1%;
+}
+
+.bst {
+    float: right;
+    margin-right: 1%;
+}
+
+.vad {
+    margin-bottom: 1vh;
+}
+
+.head {
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.col2 {
+    height: 75vh;
+    width: 29.5%;
+}
+
+.col1 {
+    height: 75vh;
+    width: 69.5%;
+}
+
+.col3 {
+    height: 42vh;
+    width: 49.5%;
+}
+
+.col4 {
+    height: 64vh;
+    width: 49.5%;
+}
+
+.col5 {
+    height: 15vh;
+}
+
+.col6 {
+    height: 42vh;
+}
+
+.col7 {
+    height: 30.33vh;
+}
+
+.col8 {
+    height: 30.33vh;
+    width: 32.67%;
+}
+
+.col9 {
+    height: 10vh;
+}
+
+.col10 {
+    height: 41vh;
+}
+
+.col11 {
+    height: 20vh;
+    width: 100%
+}
+
+.col12 {
+    height: 3vh;
+    width: 7.41%;
+}
+
+.col13 {
+    height: 37.5vh;
+}
+
+.col14 {
+    height: 15vh;
+}
+
+.col15 {
+    height: 3vh;
+    width: 10%;
+}
+
+.col16 {
+    height: 4vh;
+}
+
+.col17 {
+    height: 4vh;
+}
+
+.col18 {
+    height: 15vh;
+    width: 20%;
+}
+
+.col19 {
+    height: 10vh;
+    width: 19.2%;
+}
+
+
+.bg1 {
+    background-color: black;
+}
+
+.bg2 {
+    background-color: grey;
+}
+
+.bg3 {
+    background-color: blueviolet;
+}
+
+.bg4 {
+    background-color: cadetblue;
+}
+
+.bg5 {
+    background-color: chartreuse;
+}
+
+.bg6 {
+    background-color: brown;
+}
+
+.bg7 {
+    background-color: chocolate;
+}
+
+.bg8 {
+    background-color: crimson;
+}
+
+.bg9 {
+    background-color: darkgoldenrod;
+}
+
+.bg10 {
+    background-color: darkmagenta;
+}
+
+.bg11 {
+    background-color: darkorange;
+}
+
+.bg12 {
+    background-color: forestgreen;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            /* width: 100%; */
+            /* height: 40px; */
+            padding: 1% 10%;
+            background-color: blue;
+        }
+
+        .nav ul li {
+            display: inline;
+        }
+
+        ul li a {
+            left: 10%;
+            margin-left: 50px;
+            /* text-align: center; */
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+            line-height: 40px;
+        }
+
+        .ico {
+            margin-right: 2%;
+            color: aliceblue;
+        }
+
+        .mid {
+            width: 90%;
+            height: 500px;
+            background-image: url(air.jpg);
+            background-size: cover;
+            margin-left: 5%;
+            margin-right: 20%;
+            position: relative;
+        }
+
+        .aside {
+            width: 100px;
+            height: 100px;
+            left: 7%;
+            top: 500px;
+            /* background-color: rgb(10, 180, 236); */
+            background-image: url(air.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+        }
+
+        .post {
+            width: 90%;
+            height: 40px;
+            background-color: grey;
+            margin-left: 5%;
+        }
+
+        .icon {
+            float: inline-end;
+            margin-right: 2%;
+            line-height: 40px;
+        }
+
+        .post li {
+            display: inline;
+        }
+
+        .post li a {
+            left: 15%;
+            margin-left: 140px;
+            /* text-align: center; */
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+            line-height: 40px;
+        }
+        .fa{
+            color: white;
+            cursor: pointer;
+        }
+
+        .ph {
+            /* width: 100px; */
+            /* height: 100px; */
+            /* background-color:black; */
+            right: 20px;
+            margin-top: 470px;
+            text-transform: uppercase;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><i class="fa-brands fa-facebook ico"></i></li>
+            <input class="srch" type="search" name="" placeholder="search ">
+            <li><a href="#">prashant</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">find</a></li>
+            <li><a href="#">create</a></li>
+            <li><a href="#">find friend</a></li>
+
+            <li><i class="fa-solid fa-circle-question icon fa"></i></li>
+            <li><i class="fa-solid fa-bell icon fa"></i></li>
+            <li><i class="fa-brands fa-facebook-messenger icon fa"></i></li>
+            <li><i class="fa-solid fa-user icon fa"></i></li>
+
+        </ul>
+    </div>
+    <div class="mid">
+        <div class="ph">
+            <button>update info</button>
+            <button>activity log</button>
+        </div>
+
+    </div>
+    <div class="post">
+        <li><a href="#">timeline</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">friends</a></li>
+        <li><a href="#">photos</a></li>
+        <li><a href="#">archive</a></li>
+        <li><a href="#">more</a></li>
+    </div>
+    <div class="aside">
+
+    </div>
+</body>
+
+</html>

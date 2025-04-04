@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+    font-family: ducat;
+    src: url(fonts/GreatVibes-Regular.ttf);
+}
+
+h1 {
+    color: royalblue;
+    text-align: center;
+    /* px : 16 , rem : 1 ,em : 1 */
+    font-size: 4rem;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    word-spacing: -5px;
+    letter-spacing: 5px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: "Corben", serif; */
+    /* font-family: "Great Vibes", cursive; */
+    font-family: ducat;
+    text-shadow: 2px 2px 2px red, 4px 4px 2px teal;
+}

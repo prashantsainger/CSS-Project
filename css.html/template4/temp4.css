@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+
+.bg1 {
+    background-color:grey;
+}
+
+.bg2 {
+    background-color: grey;
+}
+
+.bg3 {
+    background-color: whitesmoke;
+}
+
+.bg4 {
+    background-color: gray;
+}
+
+.bg5 {
+    background-color: grey;
+}
+
+.bg6 {
+    background-color: gray;
+}
+
+.bg7 {
+    background-color:grey;
+}
+
+.bg8 {
+    background-color:whitesmoke;
+}
+
+.bg9 {
+    background-color: gray;
+}
+
+.bg10 {
+    background-color:gray;
+}
+
+.bg11 {
+    background-color:grey;
+}
+
+.bg12 {
+    background-color:gray;
+}
+
+.clr {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.go {
+    float: left;
+    margin-left: 1%;
+}
+
+.rgt {
+    float: right;
+    margin-right: 1%;
+}
+
+.btm {
+    margin-bottom: 1vh;
+}
+.col1{
+    height: 10vh;
+}
+.col2{
+    width: 74.2%;
+    height: 90vh;
+    margin-left: 5%;
+}
+.col3{
+    width: 15.2%;
+    height: 80vh;
+    margin-right: 5%;
+
+}
+.col4{
+    width: 69.5%;
+    height: 40vh;
+}
+.col5{
+    width: 32.67%;
+    height: 3vh;
+    
+}
+.col6{
+    width:32.67%;
+    height: 3vh;
+}
+.col7{
+    width: 32.67%;
+    height: 3vh;
+}
+.col8{
+    width:32.67%;
+    height: 26.5vh;
+}
+.col9{
+    width: 32.67%;
+    height: 26.5vh;
+}
+.col10{
+    width: 32.67%;
+    height: 26.5vh;
+}
+.col11{
+    width: 32.67%;
+    height: 3vh;
+}
+.col12{
+    width: 32.67%;
+    height: 3vh;
+}
+.col13{
+    width: 32.67%;
+    height: 3vh;
+}
+.col14{
+    width: 32.67%;
+    height:26.5vh;
+    
+}
+.col15{
+    width: 32.67%;
+    height: 26.5vh;
+}
+.col16{
+    width: 32.67%;
+    height: 26.5vh;
+}
+.col17{
+    width: 100%;
+    height: 20vh;
+}
+.col18{
+    width: 29.5%;
+    height: 83vh;
+    border: 1px solid black;
+}
+.col19{
+    width: 100%;
+    height: 40vh;
+}
+.col20{
+    width: 100%;
+    height: 3vh;
+}
+.col21{
+    width: 35%;
+    height: 15vh;
+    float: left;
+    margin-right: 2%;
+}
+.col22{
+    width: 100%;
+    height: 5vh;
+}
+.col23{
+    width: 35%;
+    height: 15vh;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+p{
+    text-align: justify;
+}
